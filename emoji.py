@@ -114,7 +114,7 @@ class Emoji:
                     id = quest.get('id')
                     text = quest.get('text')
                     completed = quest.get('completed')
-                    if text in ["Make a TON transaction", "Purchase Telegram Stars", "One-time Stars purchase"]:
+                    if text in ["Make a TON transaction", "Purchase Telegram Stars", "One-time Stars purchase","One-time TON transaction", "Boost Emoji"]:
                         self.print_(f"Quest: {text} Skip")
                         continue
                     else:
